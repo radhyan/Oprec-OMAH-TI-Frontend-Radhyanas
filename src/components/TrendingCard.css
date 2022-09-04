@@ -1,0 +1,22 @@
+.card {
+    padding: 4em 2em;
+    max-width: 480px;
+    align-items: center;
+    border: solid 1px var(--black);
+    justify-content: center;
+}
+
+.top {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.cardImg {
+    margin-bottom: 2em;
+}
+
+.bottom h2 {
+    font-size: 24px;
+}

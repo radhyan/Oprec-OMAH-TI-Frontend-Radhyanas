@@ -1,0 +1,14 @@
+.writerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+    align-items: center;
+}
+.writerText {
+    margin-left: 1em;
+}
+
+.occupation {
+    margin-top: .5em;
+    color: var(--black) !important;
+}

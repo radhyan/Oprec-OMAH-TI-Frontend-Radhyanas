@@ -1,0 +1,23 @@
+.topics {
+    max-width: 310px;
+}
+.topic {
+    padding: .5em .75em;
+    border: solid 1px var(--black);
+}
+
+.topicsContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+button.seeMore {
+    margin-top: 1em;
+    padding: 0;
+    color: var(--red);
+    background-color: var(--white);
+    cursor: pointer;
+    font-size: 1em;
+}

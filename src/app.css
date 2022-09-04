@@ -1,0 +1,12 @@
+.section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whatsNew {
+    margin-right: 4em;
+}
+
+.featured {
+    margin: 4em;
+}

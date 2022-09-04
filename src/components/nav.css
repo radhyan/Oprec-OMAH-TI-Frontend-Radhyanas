@@ -1,0 +1,77 @@
+nav {
+    margin: 0 4em;
+    font-size: var(--medium);
+    font-family: var(--body);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid var(--black);
+    border-top: none;
+    justify-content: space-between;
+}
+
+ul {
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin: 1em 4em;
+}
+
+a {
+    transition: all 200ms ease-in;
+}
+a:hover {
+    color: var(--red);
+}
+
+.signUp {
+    background-color: var(--black);
+    width: 260px;
+    height: 114px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.signUpText {
+    padding: 1em 42px;
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+
+button {
+    padding: 1.5em 1.5em;
+    color: var(--white);
+    border: 1px solid var(--white);
+    background-color: var(--black);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {   
+    li {
+        margin: 1em 3em;
+    }
+    .signUp {
+        width: 10em;
+        height: 4em;
+    }
+    .signUpText {
+        padding: 1em 1em;
+        border: 0px solid var(--white);
+        cursor: pointer;
+    }
+    button {
+        padding: .25em 1em;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 800px) {
+}

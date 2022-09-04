@@ -1,0 +1,66 @@
+:root {
+    /* COLOR */
+    --black: #2C2828;
+    --white: #F2F1F0;
+    --red: #D23636;
+    --grey: #858585;
+
+    /* TYPOGRAPHY */
+    --xLarge: 3em;
+    --large: 2em;
+    --medium: 1em;
+    --small: 0.75rem;
+    
+    /* FONT */
+    --head: 'Playfair Display', serif;
+    --body: 'Lato', sans-serif;
+}
+
+/* Typography  */
+.title {
+    font-family: var(--head);
+    font-size: var(--xLarge);
+}
+.header {
+    font-family: var(--head);
+    font-size: var(--large);
+    font-weight: bold;
+}
+.sub-heading {
+    font-family: var(--head);
+    font-size: var(--medium);
+}
+.body {
+    font-family: var(--body);
+    font-size: var(--medium);
+}
+.subtitle {
+    font-family: var(--body);
+    font-size: var(--small);
+    color: var(--grey);
+}
+
+
+/* DEFAULT */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul li ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.greaterThan {
+    content: "\003E"
+}
